@@ -1,0 +1,43 @@
+.header {
+  background-color: #30332E; /* ダークグレーの背景色 */
+            /* 文字を白に */
+  display: flex;             /* 中身を横並びに */
+  justify-content: space-between; /* 左右に振り分ける */
+  align-items: center;       /* 縦方向の中央揃え */
+  padding: 16px 32px;        /* 上下・左右の余白 */
+  font-family: sans-serif;
+}
+
+/* 左側のグループ（アイコンとロゴ） */
+.header-left {
+  display: flex;
+  align-items: center;
+  color: #FFFBFC;
+  gap: 24px; /* アイコンとロゴの隙間 */
+}
+
+
+
+/* ロゴテキスト */
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.1em; /* 文字の間隔を少し広げる */
+  margin-left: 130px;
+  color: #FFFBFC;
+}
+
+/* 右側のリンクグループ */
+.header-right {
+  display: flex;
+  gap: 24px; /* リンク同士の隙間 */
+  color: #f7c1bb;
+}
+
+/* リンクテキスト */
+.header-right a {
+  color: #f7c1bb;
+  text-decoration: none; /* 下線を消す */
+  font-size: 15px;
+  font-weight: 500;
+}

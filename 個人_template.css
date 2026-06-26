@@ -10,7 +10,11 @@ h1{
 }
 header{
     background-color: #353A47;
-    color: white;
-    
+    color: white; 
 }
 
+#reason{
+    background-color: #353A47;
+    color: white;
+    border-color: 84b082;
+}

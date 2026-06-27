@@ -87,11 +87,6 @@
     transition: max-height 1s ease-in-out;
 }
 
-.has-submenu:hover .submenu {
-    max-height: 1000px;
-    padding-left: 20px;
-    transition: max-height 1s ease-in-out;
-}
 
 /*以上、ハンバーガーメニューのcssです*/
 

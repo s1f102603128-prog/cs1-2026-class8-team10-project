@@ -31,7 +31,7 @@
 .menu {
     position: fixed;
     top: 0;
-    left: -250px; /* 最初は画面外 */
+    left: -251px; /* 最初は画面外 */
     width: 250px;
     height: 100vh;
     background-color: #30332E;
@@ -72,6 +72,25 @@
 .menu a:hover {
     background-color: #f7C1BB;
     color: #30332E;
+}
+
+.submenu {
+    max-height: 0;
+    overflow: hidden;
+    background-color: #30332E;
+    padding-left: 0px;
+}
+
+.has-submenu.open .submenu {
+    max-height: 1000px;
+    padding-left: 20px;
+    transition: max-height 1s ease-in-out;
+}
+
+.has-submenu:hover .submenu {
+    max-height: 1000px;
+    padding-left: 20px;
+    transition: max-height 1s ease-in-out;
 }
 
 /*以上、ハンバーガーメニューのcssです*/

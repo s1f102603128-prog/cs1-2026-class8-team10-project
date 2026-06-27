@@ -8,7 +8,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
+        <header class="burger">
+    <div class="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+    </div>    
+    <nav id="global-menu" class="menu">
+        <ul>
+            <li><a href="index.html">TOP PAGE</a></li>
+            <li><a href="concept.html">ABOUT[CONCEPT]</a></li>
+            <li class="has-submenu"><a href="#">OCEANSIDE</a>
+                <ul class="submenu">
+                    <li><a href="#">子メニュー１-O</a></li>
+                    <li><a href="#">子メニュー２-O</a></li> <!--海側×１なら削除-->
+                </ul>
+            </li>
+            <li class="has-submenu"><a href="#">MOUNTAINSIDE</a>
+                <ul class="submenu">
+                    <li><a href="#">子メニュー１-M</a></li>
+                    <li><a href="#">子メニュー２-M</a></li> <!--山側×１なら削除-->
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    </header>
+
     <body>
+    <script src="ja\concept.js"></script> <!--bodyタグの中に入れてください JavaScript組み込みです -->
 
         
         <header class="header">
@@ -22,15 +51,11 @@
                 <a href="#">Choice </a>
             </nav>
         </header>
+    
 
   <!-- ワイヤーフレームのメインコンテンツ部分 -->
         <main class="main-content">
             
-            <!-- アクセントテキスト -->
-            <div class="breadcrumb">
-            &gt; &gt; CONCEPT
-            </div>
-
             <!-- 見出し -->
             <h2 class="section-title">CONCEPT</h2>
 

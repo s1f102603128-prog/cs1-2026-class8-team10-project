@@ -39,6 +39,9 @@
     box-shadow: -4px 0 12px rgba(0, 0, 0, 0.1);
     transition: left 0.3s ease;
     padding-top: 60px;
+    z-index: 9998;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 900;
 }
 
 /* メニュー表示 */
@@ -79,6 +82,7 @@
     overflow: hidden;
     background-color: #30332E;
     padding-left: 0px;
+    font-weight: 500;
 }
 
 .has-submenu.open .submenu {
@@ -140,3 +144,20 @@
 
 /*以上ヘッダーのcssです*/
 
+/*以下MOUNTAIN css*/
+.Mo_slideshow {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s;
+
+}

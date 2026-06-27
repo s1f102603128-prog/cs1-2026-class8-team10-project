@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <title>TITLE</title>
-        <link rel="stylesheet" type="text/css" href="css\concept.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>TITLE</title>
+    <link rel="stylesheet" type="text/css" href="css\concept.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-        <header class="burger">
-    <div class="hamburger-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    
-    </div>    
-    <nav id="global-menu" class="menu">
-        <ul>
-            <li><a href="index.html">TOP PAGE</a></li>
-            <li><a href="concept.html">ABOUT[CONCEPT]</a></li>
-            <li class="has-submenu"><a href="#">OCEANSIDE</a>
-                <ul class="submenu">
-                    <li><a href="#">子メニュー１-O</a></li>
-                    <li><a href="#">子メニュー２-O</a></li> <!--海側×１なら削除-->
-                </ul>
-            </li>
-            <li class="has-submenu"><a href="#">MOUNTAINSIDE</a>
-                <ul class="submenu">
-                    <li><a href="#">子メニュー１-M</a></li>
-                    <li><a href="#">子メニュー２-M</a></li> <!--山側×１なら削除-->
-                </ul>
-            </li>
-        </ul>
-    </nav>
-    </header>
 
-    <body>
-    <script src="ja\concept.js"></script> <!--bodyタグの中に入れてください JavaScript組み込みです -->
 
+<body>
+
+<header class="header">
+    <div class="burger">
+        <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         
-        <header class="header">
-            <div class="header-left">
-                <h1 class="logo">今行きたい海と山</h1>
-            </div>
+        <nav id="global-menu" class="menu">
+            <ul>
+                <li><a href="index.html">TOP PAGE</a></li>
+                <li><a href="concept.html">ABOUT[CONCEPT]</a></li>
+                <li class="has-submenu"><a href="#">OCEANSIDE</a>
+                    <ul class="submenu">
+                        <li><a href="#">子メニュー１-O</a></li>
+                        <li><a href="#">子メニュー２-O</a></li> <!--海側×１なら削除-->
+                    </ul>
+                </li>
+                <li class="has-submenu"><a href="#">MOUNTAINSIDE</a>
+                    <ul class="submenu">
+                        <li><a href="#">子メニュー１-M</a></li>
+                        <li><a href="#">子メニュー２-M</a></li> <!--山側×１なら削除-->
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+        
+    <div class="header-left">
+        <h1 class="logo">今行きたい海と山</h1>
+    </div>
 
-            <nav class="header-right">
-                <a href="#">Top</a>
-                <a href="#">ABOUT[Concept]</a>
-                <a href="#">Choice </a>
-            </nav>
-        </header>
+    <nav class="header-right">
+        <a href="#">Top</a>
+        <a href="#">ABOUT[Concept]</a>
+        <a href="#">Choice </a>
+    </nav>
+</header>
     
 
   <!-- ワイヤーフレームのメインコンテンツ部分 -->
@@ -78,7 +78,6 @@
                     </p>
                 </div>
             </div>
-            </div>
 
         </main>
 
@@ -86,5 +85,6 @@
         <footer class="footer">
             <small>&copy; 今行きたい海と山</small>
         </footer>
-
-    </body> 
+        
+    <script src="ja\concept.js"></script> <!--</body>直前に入れてください JavaScript組み込みです -->
+</body> 

@@ -1,38 +1,39 @@
 <!DOCTYPE html>
 
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <title>TITLE</title>
-        <link rel="stylesheet" type="text/css" href="css\index.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>TITLE</title>
+    <link rel="stylesheet" type="text/css" href="css\index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
 
-    <header class="header">
-    <div class="header-left">
-    
-        <h1 class="logo">今行きたい海と山</h1>
+<body>
+    <header>
+    <div class="header">
+        <div class="header-left">
+        
+            <h1 class="logo">今行きたい海と山</h1>
+        </div>
+
+        <nav class="header-right">
+            <a href="#">Top</a>
+            <a href="#">ABOUT[Concept]</a>
+            <a href="#">Choice </a>
+        </nav>
+
     </div>
 
-    <nav class="header-right">
-        <a href="#">Top</a>
-        <a href="#">ABOUT[Concept]</a>
-        <a href="#">Choice </a>
-    </nav>
-
-    </header>
-
-    <header class="burger">
     <div class="hamburger-menu">
         <span></span>
         <span></span>
         <span></span>
     </div>
-    
-    </div>    
+
     <nav id="global-menu" class="menu">
         <ul>
             <li><a href="index.html">TOP PAGE</a></li>
-            <li><a href="#">ABOUT [CONCEPT]</a></li>
+            <li><a href="concept.html">ABOUT[CONCEPT]</a></li>
             <li class="has-submenu"><a href="#">OCEANSIDE</a>
                 <ul class="submenu">
                     <li><a href="#">子メニュー１-O</a></li>
@@ -49,23 +50,25 @@
     </nav>
     </header>
 
-    <body>
-    <script src="ja\index.js"></script> <!--bodyタグの中に入れてください JavaScript組み込みです -->
-
 
 
     <h1>タイトル</h1>
     <h2>MENU</h2>
-    <p>
         <ul>
             <li>TOP</li>
             <li>ABOUT[CONCEPT]</li>
             <li>MOUNTAIN SIDE</li>
             <li>OCEAN SIDE</li>
         </ul>
-
-    </p>
-    </body>
+    <div class="Mo_slideshow">
+        <img src="img\Top\TP_Mo_1.jpg" class="slide active">
+        <img src="img\Top\TP_Mo_2.jpg" class="slide">
+        <img src="img\Top\TP_Mo_3.jpg" class="slide">
+        <img src="img\Top\TP_Mo_4.jpg" class="slide">
+        <img src="img\Top\TP_Mo_5.jpg" class="slide">
+    </div>
+    <script src="ja\index.js"></script><!--</body>の直前に入れてください JavaScript組み込みです -->
+</body>
 
 
 </html>

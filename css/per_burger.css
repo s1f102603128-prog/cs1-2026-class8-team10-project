@@ -39,7 +39,10 @@
     transition: left 0.3s ease;
     padding-top: 60px;
     z-index: 9998;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 900;
 }
+
 
 /* メニュー表示 */
 .menu.is-active {
@@ -79,6 +82,7 @@
     overflow: hidden;
     background-color: #30332E;
     padding-left: 0px;
+    font-weight: 500;
 }
 
 .has-submenu.open .submenu {

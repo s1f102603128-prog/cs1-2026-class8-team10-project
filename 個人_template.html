@@ -3,39 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css\per_burger.css">
+    <!--↑バーガー共通css作成してあるので支障が無ければ個人での書き換え不要です、
+    各個人の固有cssは↓を書き換えて組み込んでください それぞれコピペ後、確認次第このコメントは消去してください-->
+    <link rel="stylesheet" type="text/css" href="#">
     <title>Document</title>
 </head>
+
 <body>
     <h1>タイトル</h1>
     <h2>MENU</h2>
 
-    <header>
+    <header class="header">
         <ul>
             <li><a href="">TOP</a></li>
             <li><a href="">CONCEPT</a></li>
             <li><a href="">CHOICE</a></li>
         </ul>
-    </header>
-    <header class="header">
     <button
         class="hamburger-menu"
         aria-label="メニューを開く"
         aria-expanded="false"
         aria-controls="global-menu">
-
+        <span></span>
+        <span></span>
+        <span></span>
     </button>
 
+    <!-- メニュー本体 -->
     <nav id="global-menu" class="menu">
         <ul>
-            <li><a href="#">TOP PAGE</a></li>
-            <li><a href="#">CONCEPT</a></li>
-            <li><a href="#">OCEANSIDE</a></li>
-            <li><a href="#">MOUNTAINSIDE</a></li>
+            <li><a href="index.html">TOP PAGE</a></li>
+            <li><a href="concept.html">ABOUT[CONCEPT]</a></li>
+            <li class="has-submenu"><a href="#">OCEANSIDE</a>
+                <ul class="submenu">
+                    <li><a href="#">子メニュー１-O</a></li>
+                    <li><a href="#">子メニュー２-O</a></li>
+                </ul>
+            </li>
+            <li class="has-submenu"><a href="#">MOUNTAINSIDE</a>
+                <ul class="submenu">
+                    <li><a href="#">子メニュー１-M</a></li>
+                    <li><a href="#">子メニュー２-M</a></li>
+                </ul>
+            </li>
         </ul>
     </nav>
     </header>
+
     <p>OCEAN/MOUNTAIN</p>
-
-
+<script src="ja\per_burger.js"></script> <!--</body>の直前に入れてください JavaScript組み込みです -->
 </body>
 </html>
